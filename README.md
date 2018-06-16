@@ -10,6 +10,8 @@ The dataset that we will be wrangling is the tweet archive of Twitter user @dog_
 
 ### The Data
 
+There are three Pandas dataframes used in this analysis:
+
 * An enhanced Twitter archive provided by Udacity . This dataset contains basic tweet data for more than 2000 tweets. The tweet text was used to extract ratings, dog names and dog stages. This file was downloaded manually from Udacity's website and saved as 'tarchive'.
 
 * Data obtained by query Twitter API, using Python's Tweepy library. This contains each tweet's retweet count and favorite ("like") count. This is saved as 'tweets_df'.
